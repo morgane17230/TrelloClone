@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+}
+
+html {
+  background-color: #ccc;
+  overflow-x: auto;
+}
+#header {
+  padding: 2em;
+  background-color: #048d97;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.51);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#confirmation {
+  color: white;
+  font-size: 1.5em;
+}
+
+.hidden {
+  display: none;
+}
+.box {
+  border-bottom: 10px solid;
+  text-align: center;
+}
+.box:hover #cardFooter {
+  display: block;
+}
+#cardFooter {
+  display: none;
+}
