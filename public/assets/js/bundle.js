@@ -4472,7 +4472,7 @@ module.exports = list;
 
 },{"./card":3,"./label":4,"./util":6,"sortablejs":1}],6:[function(require,module,exports){
 const util = {
-  base_url: "http://localhost:5000",
+  base_url: "http://localhost:3000",
 
   // Fermer les modales OK
 
