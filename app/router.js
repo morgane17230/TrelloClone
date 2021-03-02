@@ -5,10 +5,6 @@ const labelController = require('./controllers/labelController');
 
 const router = express.Router();
 
-router.get('/', (_, res) => {
-    res.send('Hello world!');
-});
-
 // list controller
 router.get('/lists', listController.getAllLists);
 router.post('/lists', listController.createList);
